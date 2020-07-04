@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-SMS-Read-n-Send.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-SMS-Read-n-Send.iml" group="Android-SMS-Read-n-Send" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-SMS-Read-n-Send-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-SMS-Read-n-Send-app.iml" group="Android-SMS-Read-n-Send/app" />
       <module fileurl="file://$PROJECT_DIR$/SMSReadSend.iml" filepath="$PROJECT_DIR$/SMSReadSend.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

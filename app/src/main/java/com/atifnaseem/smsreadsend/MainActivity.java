@@ -8,8 +8,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private boolean checkPermission(String permission){
-        int checkPermission = ContextCompat.checkSelfPermission(this, permission);
+        int checkPermission = ActivityCompat.checkSelfPermission(this, permission);
         return checkPermission == PackageManager.PERMISSION_GRANTED;
     }
 
